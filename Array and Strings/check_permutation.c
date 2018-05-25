@@ -2,6 +2,16 @@
 #include <stdbool.h>
 #include <string.h>
 
+/**
+ * Task: Given two strings, write a method to decide if one is a permutation of
+ * the other.
+ */
+
+/**
+ * Time Complexity: O(n log(n))
+ * Space Complexity: O(n)
+ */
+
 void print_array(char* array, int l, int r) {
     size_t i = 0;
 
